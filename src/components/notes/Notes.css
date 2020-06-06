@@ -1,0 +1,19 @@
+.note{
+    line-height: 1.5rem !important;
+    cursor: pointer;
+}
+
+.action-btn{
+    line-height: 0.5rem !important;
+}
+
+.action-btn i{
+    line-height: 1.5rem !important;
+}
+
+.note-completed{
+    color: #28a745 !important;
+    text-decoration: line-through !important;
+    font-style: italic;
+    cursor: default;
+}

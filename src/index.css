@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Comunes a toda la aplicación */
+@font-face{
+font-family: 'Merriweather';
+    src: url('./assets/Merriweather-Regular.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+    font-family: 'Merriweather';
+}
+
+*{
+    text-decoration: none !important;
+}
+
+body{
+    background-color: #e3bd59 !important;    
+}
+
+.login-box{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+    box-shadow: 0 0 10px gray;
+}
+
+.login-box h1{
+    text-align: center;   
+    font-size: 34px;
+}
+
+.login-box label{
+    line-height: 40px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.bg-purple{
+    background-color: #4c3c80;
+}
+
+.text-purple{
+    color: #6f42c1
+}
+
+.text-orange{
+    color: #d47e4e
 }

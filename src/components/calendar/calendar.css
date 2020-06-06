@@ -1,0 +1,28 @@
+/*.calendar-block{
+    cursor: pointer;    
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    min-height: calc(100% / 5);
+    box-shadow: 0 0 5px #d7d7d7;
+    border: 1px solid #ccc
+}
+
+.calendar-block p{
+    font-size: 30px;
+    grid-area: block;
+}
+
+#calendar{
+    display: grid;
+    padding: 2rem;
+    width: 100%;
+    margin: 0 auto;    
+
+    grid-template-areas: 
+        'block block block block block block block'
+        'block block block block block block block'
+        'block block block block block block block'
+        'block block block block block block block'
+        'block block block block block block block';
+}*/
